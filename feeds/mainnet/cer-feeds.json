@@ -1,7 +1,7 @@
 {
     "meta": {
         "description": "active Orcfax CER feeds (mainnet)",
-        "version": "2025.10.09.0002"
+        "version": "2026.05.18.0001"
     },
     "feeds": [
         {
@@ -219,6 +219,16 @@
             "label": "SURF-ADA",
             "interval": 3600,
             "deviation": 2,
+            "source": "dex",
+            "calculation": "weighted mean",
+            "status": "showcase",
+            "type": "CER"
+        },
+        {
+            "pair": "REE-ADA",
+            "label": "REE-ADA",
+            "interval": 3600,
+            "deviation": 1,
             "source": "dex",
             "calculation": "weighted mean",
             "status": "showcase",
